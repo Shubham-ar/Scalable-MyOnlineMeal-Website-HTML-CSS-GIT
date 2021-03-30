@@ -1,0 +1,70 @@
+body{
+    /* background-color: rebeccapurple; */
+}
+/* navigation Bar */
+.h-primary{
+    font-size: 20px;
+}
+.navbar{
+    flex-direction: column;
+}
+.navbar ul li a{
+    font-size: 10px;
+    padding: 2px 10px;
+}
+.navbar ul{
+    margin: 5px 2px;
+}
+.secondary-heading{
+    font-size: 16px;
+}
+
+/* Home Section*/
+.home{
+    height: 200px;
+    padding: 5px 5px;
+}
+.home p{
+    font-size: 12px;
+}
+.home::before{
+    height: 370px;
+}
+
+
+/* Services Section */
+
+.services{
+flex-direction: column;
+}
+.services .box img{
+    height: 90px;
+}
+.services .box p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+/* Client Section */
+
+.clients{
+    flex-wrap: wrap;
+
+}
+.contact::before{
+    height: 430px;
+}
+.client-item{
+    padding: 20px;
+}
+.clients img{
+ height: 60px;
+}
+
+/* Contact Section */
+
+.contactbox textarea{
+    height: 50px;
+}
+
+/* Footer */
